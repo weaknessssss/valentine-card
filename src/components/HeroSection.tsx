@@ -28,7 +28,7 @@ export function HeroSection() {
           transition={{ delay: 0.3 }}
           className="text-6xl md:text-8xl font-bold text-red-600 mb-6"
         >
-          С 14 Февраля!
+          С 14 Февраля Настюша!
         </motion.h1>
         
         <motion.p
