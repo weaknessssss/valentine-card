@@ -60,7 +60,7 @@ export function HeroSection() {
                 repeatType: "loop"
               }}
             >
-              <Heart className="w-8 h-8 text-pink-500 fill-pink-500" />
+              <Heart className="w-8 h-8 text-red-500 fill-red-500" />
             </motion.div>
           ))}
         </motion.div>

@@ -6,9 +6,9 @@ export function PoemSection() {
       <div className="max-w-3xl">
         <div className="bg-white/80 backdrop-blur-sm rounded-3xl shadow-2xl p-12 border-4 border-red-200">
           <div className="flex items-center justify-center mb-8">
-            <Sparkles className="w-8 h-8 text-pink-500 mr-2" />
+            <Sparkles className="w-8 h-8 text-red-500 mr-2" />
             <h2 className="text-4xl font-bold text-red-600">Стихи для тебя</h2>
-            <Sparkles className="w-8 h-8 text-pink-500 ml-2" />
+            <Sparkles className="w-8 h-8 text-red-500 ml-2" />
           </div>
           
           <div className="space-y-8 text-gray-700">

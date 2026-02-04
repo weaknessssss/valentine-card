@@ -28,15 +28,15 @@ export function ReasonSection() {
           {reasons.map((reason, index) => (
             <div 
               key={index}
-              className="flex items-center gap-4 bg-gradient-to-r from-pink-50 to-rose-50 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow"
+              className="flex items-scretch gap-4 bg-gradient-to-r from-pink-50 to-rose-50 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow"
             >
               <div className="flex-shrink-0 w-12 h-12 bg-red-500 rounded-full flex items-center justify-center">
                 <span className="text-white font-bold text-lg">{index + 1}</span>
               </div>
-              <p className="text-xl text-gray-700 flex items-center gap-2">
+              <p className="text-xl text-gray-700 flex-1">
                 {reason}
-                <Heart className="w-5 h-5 text-red-500 fill-red-500 flex-shrink-0" />
               </p>
+              <Heart className="w-5 h-5 text-red-500 fill-red-500 flex-shrink-0" />
             </div>
           ))}
         </div>

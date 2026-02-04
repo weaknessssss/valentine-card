@@ -38,32 +38,6 @@ export function FinalSection() {
             14 февраля 2026
           </p>
         </div>
-        
-        <motion.div
-          className="mt-12 flex justify-center gap-3 flex-wrap"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.5 }}
-        >
-          {[...Array(10)].map((_, i) => (
-            <motion.div
-              key={i}
-              animate={{ 
-                y: [0, -20, 0],
-                rotate: [0, 360],
-                scale: [1, 1.3, 1]
-              }}
-              transition={{ 
-                duration: 3,
-                delay: i * 0.2,
-                repeat: Infinity,
-                repeatType: "loop"
-              }}
-            >
-              <Heart className="w-6 h-6 text-white fill-white" />
-            </motion.div>
-          ))}
-        </motion.div>
       </div>
     </section>
   );
